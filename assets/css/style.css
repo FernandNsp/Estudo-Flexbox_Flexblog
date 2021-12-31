@@ -7,7 +7,10 @@
 :root{
 	--branco: #FFFFFF;
 	--preto: #222222;
-	--cinza-claro: #7c7c7c;
+
+	--cinza-claro: #f7f7f7;
+	--cinza-medio: #a4a4a4;
+	--cinza-escuro: #7c7c7c;
 
 	--principal: #2C70FF;
 	--principal-escuro: #122AB2;
