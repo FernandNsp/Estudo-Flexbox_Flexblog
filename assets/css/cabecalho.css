@@ -1,0 +1,20 @@
+/* ========== INFORMACOES */
+.informacoes{
+	color: var(--branco);
+	background-color: var(--principal-escuro);
+}
+
+.informacoes__contatos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-top: 1rem;
+}
+
+.informacoes__item{
+	color: var(--branco);
+	font-size: 1.6rem;
+	margin: 0 1.6rem 1rem 1.6rem;
+}

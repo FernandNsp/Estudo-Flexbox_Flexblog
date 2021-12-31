@@ -5,12 +5,24 @@
 }
 
 :root{
+	--branco: #FFFFFF;
 	--preto: #222222;
+	--principal: #122ab2;
+	--principal-escuro: #122ab2;
+}
+
+html{
+	font-size: 62.5%;
 }
 
 body{
 	color: var(--preto);
 	font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.container{
+	max-width: 980px;
+	margin: 0 auto;
 }
 
 a, li{
