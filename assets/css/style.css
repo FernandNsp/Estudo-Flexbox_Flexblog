@@ -7,8 +7,8 @@
 :root{
 	--branco: #FFFFFF;
 	--preto: #222222;
-	--principal: #122ab2;
-	--principal-escuro: #122ab2;
+	--principal: #2C70FF;
+	--principal-escuro: #122AB2;
 }
 
 html{
@@ -35,3 +35,9 @@ img{
 	max-width: 100%;
 }
 
+@media screen and (max-width: 768px){
+	.container{
+		padding-left: 1.6rem;
+		padding-right: 1.6rem;
+	}
+}
