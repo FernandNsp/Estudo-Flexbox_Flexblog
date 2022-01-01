@@ -2,7 +2,6 @@
 	<h1>FlexBlog - Estudando FlexBox</h1>
 </div>
 
-## 💻Sobre o Projeto
 <p>No Curso de 'CSS Flexbox' da origamid, foi criado um site responsivo utilizando apenas as propriedades do flexbox no alinhamento, evitando o uso de valores fixos e elementos flutuantes. </p>
 <p>O conteúdo do site não era o foco do curso, portanto seu layout serviu para tratar do básico ao avançado do flexbox, passando pelos fundamentos e propriedades mais básicas até combinações mais avançadas nas colunas e linhas. </p>
 
