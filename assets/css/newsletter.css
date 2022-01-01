@@ -1,0 +1,60 @@
+/* NEWSLETTER */
+.newsletter{
+	display: flex;
+	flex-wrap: wrap;
+	background: var(--cinza-claro);
+	padding: 6rem calc((100% - 960px)/2);
+}
+
+.newsletter__informacoes{
+	flex: 1 1 240px;
+	margin: 0 1rem;
+}
+
+.newsletter__titulo{
+	font-size: 4.8rem;
+	color: var(--cinza-medio);
+}
+
+.newsletter__texto{
+	font-size: 2rem;
+	font-style: italic;
+	max-width: 230px;
+	color: var(--cinza-escuro);
+	margin-bottom: 1rem;
+}
+
+.formulario{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 2 1 260px;
+	margin: 0 1rem;
+	align-self: center;
+}
+
+.formulario__input{
+	flex: 3 1 260px;
+	font-size: 2rem;
+	color: var(--cinza-escuro);
+	font-style: italic;
+	font-family: "Nunito", Arial, Helvetica, sans-serif;
+	border: 4px solid var(--principal);
+	background: transparent;
+	padding: 1.5rem 1rem;
+	margin: 0;
+	border-radius: 0;
+}
+
+.formulario__botao{
+	flex: 1 1 260px;
+	font-family: "Nunito", Arial, Helvetica, sans-serif;
+	font-size: 3.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: var(--principal);
+	color: var(--branco);
+	border: 0;
+	margin: 0;
+	cursor: pointer;
+	padding: 1.5rem 1rem;
+}
