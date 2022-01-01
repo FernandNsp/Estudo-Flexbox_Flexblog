@@ -1,36 +1,41 @@
 /* ========== PRECO */
 .preco{
+	background: var(--cinza-claro);
+	
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-end;
-	background: var(--cinza-claro);
 	padding: 6rem;
 }
 
 .preco__card{
 	flex: 1 1 260px;
+	
 	padding: 2rem;
 	margin: 1rem;
 	border: 4px solid var(--branco);
 }
 
 .preco__titulo{
-	font-size: 4.8rem;
 	color: var(--cinza-medio);
-	text-align: center;
+
 	margin-top: 2rem;
+	font-size: 4.8rem;
+	text-align: center;
 }
 
 .preco__valor{
-	display: block;
 	max-width: 300px;
-	margin: 2rem auto;
-	text-align: center;
-	font-size: 4rem;
-	font-weight: 700;
+	display: block;
+	
 	padding: 1rem 0 .5rem 0;
+	margin: 2rem auto;
 	border-top: 4px solid var(--branco);
 	border-bottom: 4px solid var(--branco);
+	
+	font-size: 4rem;
+	font-weight: 700;
+	text-align: center;
 }
 
 .preco__valor sup{
@@ -43,6 +48,8 @@
 }
 
 .preco__item{
+	color: var(--cinza-escuro);
+
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -50,29 +57,31 @@
 	margin-bottom: 1.5rem;
 	font-size: 2rem;
 	font-style: italic;
-	color: var(--cinza-escuro);
 }
 
 .preco__item::after{
 	content: '';
-	display: block;
+	background: var(--principal);
+	
 	width: 6px;
 	height: 6px;
-	background: var(--principal);
+	display: block;
 	border-radius: 50%;
 }
 
 .preco__botao{
 	color: var(--preto);
+	
 	max-width: 300px;
 	display: block;
+	padding: 1.5rem;
 	margin: 20px auto;
 	border: 4px solid var(--preto);
-	text-transform: uppercase;
+	
 	font-size: 3.6rem;
 	font-weight: 700;
 	text-align: center;
-	padding: 1.5rem;
+	text-transform: uppercase;
 }
 
 .preco__botao:hover{

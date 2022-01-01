@@ -12,15 +12,16 @@
 
 .qualidade__titulo{
 	color: var(--cinza-medio);
-	font-size: 3.6rem;
+
 	margin-bottom: 2rem; 
+	font-size: 3.6rem;
 }
 
 .qualidade__titulo::before{
 	content: '';
-	display: inline-block;
 	width: 8px;
 	height: 30px;
+	display: inline-block;
 	margin-right: 1rem;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .qualidade__texto{
+	color: var(--cinza-escuro);
 	font-size: 2rem;
 	line-height: 1.4;
-	color: var(--cinza-escuro);
 }
