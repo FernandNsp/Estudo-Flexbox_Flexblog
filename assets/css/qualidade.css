@@ -1,0 +1,43 @@
+/* ========== QUALIDADE */
+.qualidade{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 6rem auto;
+}
+
+.qualidade__item{
+	flex: 1 1 300px;
+	margin: 2rem 1rem;
+}
+
+.qualidade__titulo{
+	color: var(--cinza-medio);
+	font-size: 3.6rem;
+	margin-bottom: 2rem; 
+}
+
+.qualidade__titulo::before{
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 30px;
+	margin-right: 1rem;
+}
+
+.qualidade__item:nth-of-type(3n+1) .qualidade__titulo::before{
+	background: #ae81ff;
+}
+
+.qualidade__item:nth-of-type(3n+2) .qualidade__titulo::before{
+	background: #f9265e;
+}
+
+.qualidade__item:nth-of-type(3n+3) .qualidade__titulo::before{
+	background: #66e9db;
+}
+
+.qualidade__texto{
+	font-size: 2rem;
+	line-height: 1.4;
+	color: var(--cinza-escuro);
+}
