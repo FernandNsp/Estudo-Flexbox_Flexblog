@@ -1,5 +1,5 @@
 <div>
-	<h1>FlexBlog - <span style="font-size: 1.6rem">Estudando FlexBox</span></h1>
+	<h1>FlexBlog - Estudando FlexBox</h1>
 </div>
 
 ## 💻Sobre o Projeto
