@@ -1,0 +1,24 @@
+/* ========== FOOTER */
+.footer{
+	display: flex;
+	background-color: var(--principal);
+	height: 200px;
+	align-items: center;
+}
+
+.footer__texto{
+	flex: 1;
+	font-size: 3.6rem;
+	color: var(--principal-escuro);
+	text-align: center;
+}
+
+@media screen and (max-width: 768px){
+	.footer{
+		height: 160px;
+	}
+
+	.footer__texto{
+		font-size: 2.6rem;
+	}
+}
